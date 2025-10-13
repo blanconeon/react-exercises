@@ -13,6 +13,6 @@ const pics = {
   doggy: 'https://content.codecademy.com/courses/React/react_photo-puppy.jpeg'
 };
 
-const img = <img src={pics[coinToss() === 'heads' ? 'kitty' : 'doggy']} />;
+const img = <img src={pics[coinToss() === 'heads' ? 'kitty' : 'doggy']} />; //pics[coinToss()] selects kitty or doggy, like kitty.doggy
 
 root.render(img);
