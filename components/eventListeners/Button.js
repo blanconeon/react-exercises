@@ -1,10 +1,10 @@
 import React from 'react';
 
-function SubmitButton() {
+function Button() {
   function handleClick() {
     alert('Submission Successful.');
   }
   return <button onClick={handleClick}>Submit</button>;
 }
 
-export default SubmitButton;
+export default Button;
